@@ -98,6 +98,6 @@ def check_stocks():
 
 
 if __name__ == "__main__":
-    if is_market_hours():
-        check_stocks()
+    check_stocks()
+
 
