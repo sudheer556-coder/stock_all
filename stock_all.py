@@ -80,8 +80,8 @@ def check_stocks():
             print(symbol, "High:", today_high, "Current:", current_price, "Drop:", drop)
 
             if drop >= threshold:
-                if alerts.get(symbol) == today:
-                    continue  # already alerted today
+                #if alerts.get(symbol) == today:
+                  #  continue  # already alerted today
 
                 message = (
                     f"🚨 STOCK DROP ALERT\n\n"
@@ -102,6 +102,7 @@ def check_stocks():
 
 if __name__ == "__main__":
     check_stocks()
+
 
 
 
