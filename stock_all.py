@@ -12,14 +12,13 @@ import json
 DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1473479738302533703/Ln7OhZinKMIwX4X0lzaDKTHHhk9HIwcxdmNQbJjBHUylptiKdcGGG0a7z5I_jPIJeOGF"
 
 STOCKS = {
-    "MU": 12,
+    "MU": 20,
     "BE": 10,
     "APP": 20,
     "FIG": 2,
     "RDDT": 12,
     "HOOD": 4,
-    "OKLO": 4,
-    "MU": 20
+    "OKLO": 4
 }
 
 ET = pytz.timezone("US/Eastern")
@@ -102,6 +101,7 @@ def check_stocks():
 
 if __name__ == "__main__":
     check_stocks()
+
 
 
 
