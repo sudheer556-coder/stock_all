@@ -61,7 +61,7 @@ def save_alerts(data):
 
 def check_stocks():
     today = str(datetime.now(ET).date())
-    alerts = load_alerts()
+    #alerts = load_alerts()
 
     for symbol, threshold in STOCKS.items():
         try:
@@ -79,9 +79,6 @@ def check_stocks():
             print(symbol, "High:", today_high, "Current:", current_price, "Drop:", drop)
 
             if drop >= threshold:
-                #if alerts.get(symbol) == today:
-                  #  continue  # already alerted today
-
                 message = (
                     f"🚨 STOCK DROP ALERT\n\n"
                     f"{symbol}\n"
@@ -91,16 +88,17 @@ def check_stocks():
                 )
 
                 send_discord(message)
-                alerts[symbol] = today
+                #alerts[symbol] = today
 
         except Exception as e:
             print("Error:", symbol, e)
 
-    save_alerts(alerts)
+    #save_alerts(alerts)
 
 
 if __name__ == "__main__":
     check_stocks()
+
 
 
 
