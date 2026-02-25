@@ -19,7 +19,8 @@ STOCKS = {
     "RDDT": 12,
     "HOOD": 4,
     "OKLO": 4,
-    "SE": 2
+    "SE": 2,
+    "ODD": 2
 }
 
 ET = pytz.timezone("US/Eastern")
@@ -99,6 +100,7 @@ def check_stocks():
 
 if __name__ == "__main__":
     check_stocks()
+
 
 
 
