@@ -17,12 +17,12 @@ STOCKS = {
     "APP": 40,
     "FIG": 2,
     "RDDT": 15,
-    "HOOD": 4,
+    "HOOD": 5,
     "OKLO": 4,
     "SE": 2,
     "ODD": 2,
-    "ORCL": 5,
-    "NBIS": 7
+    "ORCL": 10,
+    "NBIS": 10
 }
 
 ET = pytz.timezone("US/Eastern")
@@ -102,6 +102,7 @@ def check_stocks():
 
 if __name__ == "__main__":
     check_stocks()
+
 
 
 
