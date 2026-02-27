@@ -13,10 +13,10 @@ DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1473479738302533703/Ln7OhZin
 
 STOCKS = {
     "MU": 20,
-    "BE": 10,
-    "APP": 20,
+    "BE": 15,
+    "APP": 40,
     "FIG": 2,
-    "RDDT": 12,
+    "RDDT": 15,
     "HOOD": 4,
     "OKLO": 4,
     "SE": 2,
@@ -100,6 +100,7 @@ def check_stocks():
 
 if __name__ == "__main__":
     check_stocks()
+
 
 
 
