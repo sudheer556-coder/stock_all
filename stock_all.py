@@ -24,7 +24,8 @@ STOCKS = {
     "ORCL": 10,
     "NBIS": 10,
     "CRCL": 5,
-    "SNOW": 10
+    "SNOW": 10,
+    "RKLB": 4
 }
 
 ET = pytz.timezone("US/Eastern")
@@ -104,6 +105,7 @@ def check_stocks():
 
 if __name__ == "__main__":
     check_stocks()
+
 
 
 
