@@ -16,10 +16,10 @@ STOCKS = {
     "BE": 15,
     "APP": 40,
     "FIG": 2,
-    "RDDT": 15,
+    "RDDT": 10,
     "HOOD": 5,
     "OKLO": 4,
-    "SE": 2,
+    "SE": 8,
     "ODD": 2,
     "ORCL": 10,
     "NBIS": 10
@@ -102,6 +102,7 @@ def check_stocks():
 
 if __name__ == "__main__":
     check_stocks()
+
 
 
 
