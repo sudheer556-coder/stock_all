@@ -32,7 +32,9 @@ STOCKS = {
     "APLD": 2,
     "IREN": 3,
     "LUNR": 2,
-    "NFLX": 2
+    "NFLX": 2,
+    "APLD": 2,
+    "ONDS": 1
 }
 
 ET = pytz.timezone("US/Eastern")
