@@ -12,7 +12,7 @@ import json
 DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1473479738302533703/Ln7OhZinKMIwX4X0lzaDKTHHhk9HIwcxdmNQbJjBHUylptiKdcGGG0a7z5I_jPIJeOGF"
 
 STOCKS = {
-    "MU": 20,
+    "MU": 35,
     "BE": 15,
     "APP": 40,
     "FIG": 2,
@@ -37,7 +37,7 @@ STOCKS = {
     "ONDS": 1,
     "AAOI": 10,
     "POET": 2,
-    "INTL": 4
+    "INTC": 4
 }
 
 ET = pytz.timezone("US/Eastern")
