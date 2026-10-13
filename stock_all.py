@@ -42,7 +42,8 @@ STOCKS = {
     "ARM": 25,
     "SNDK": 100,
     "CBRS": 15,
-    "VICR": 13
+    "VICR": 13,
+    "FICO": 35
 }
 
 ET = pytz.timezone("US/Eastern")
